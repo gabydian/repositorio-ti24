@@ -1,8 +1,8 @@
 public class Produto {
-    public String nome;
-    public String descricao;
-    public double valorUnitario;
-    public double quantidade;
+
+    private String nome;
+    private String descricao;
+    private Double valor;
 
     public String getNome() {
         return nome;
@@ -20,19 +20,11 @@ public class Produto {
         this.descricao = descricao;
     }
 
-    public double getValorUnitario() {
-        return valorUnitario;
+    public double getValor() {
+        return valor;
     }
 
-    public void setValorUnitario(double valorUnitario) {
-        this.valorUnitario = valorUnitario;
-    }
-
-    public double getQuantidade() {
-        return quantidade;
-    }
-
-    public void setQuantidade(double quantidade) {
-        this.quantidade = quantidade;
+    public void setValor(double valor) {
+        this.valor = valor;
     }
 }
